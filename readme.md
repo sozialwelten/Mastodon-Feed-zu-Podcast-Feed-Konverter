@@ -1,7 +1,7 @@
 # Mastodon-Feed zu Podcast-Feed Konverter
 
 Konvertiert Mastodon RSS-Feeds in Podcast-kompatible RSS-Feeds für Podcatcher wie Apple Podcasts, Spotify, etc.
-Mastodon erlaubt das Hochladen von Audio-Dateien und generiert sowohl für Einzelaccounts als auch für Hashtags RSS-Feeds. Was noch fehlt, um den RSS-Feed mit Audio-Files kompatibel zu Podcasts zu machen, so dass der Feed in einem Podcatcher korrekt angezeigt wird, liefert dieses Script.
+Mastodon erlaubt das Hochladen von Audio-Dateien und generiert sowohl für Einzelaccounts als auch für Hashtags RSS-Feeds. Dieses Tool liefert, was noch fehlt, um den RSS-Feed mit Audio-Files zu einem Podcast zu machen.
 
 ## Features
 

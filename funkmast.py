@@ -143,7 +143,7 @@ def create_podcast_feed(mastodon_feed_url, output_file='podcast.rss', podcast_im
     # Channel Metadaten
     ET.SubElement(channel, 'title').text = feed.feed.get('title', 'Funkmast Podcast')
     ET.SubElement(channel, 'link').text = 'https://ifwo.eu'
-    ET.SubElement(channel, 'description').text = 'IfWO Podcast von @sozialwelten'
+    ET.SubElement(channel, 'description').text = 'IfWO #Funkmast Podcast von Sozialwelten. Funkt von Mastodon aus für das Fediverse und darüber hinaus. Soziologische Perspektive auf Social Media und Gesellschaft'
     ET.SubElement(channel, 'language').text = 'de'
     ET.SubElement(channel, 'managingEditor').text = 'sozialwelten@ifwo.eu (Michael Karbacher)'
     ET.SubElement(channel, 'webMaster').text = 'sozialwelten@ifwo.eu (Michael Karbacher)'
